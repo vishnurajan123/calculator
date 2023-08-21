@@ -20,34 +20,34 @@
                     <div class="d-flex justify-content-center"><input placeholder="0" id="result" type="text" class="form-control" readonly></div>
                       <div class="">
                         <div class="rows">
-                            <div ><button  style="background-color: rgb(107, 107, 107);color: white;">(</button></div>
-                            <dirv ><button style="background-color: rgb(107, 107, 107);color: white;">)</button></dirv>
-                            <div ><button onclick="removeLast()"  style="background-color: rgb(107, 107, 107);color: white;"><i class="fa-solid fa-delete-left"></i></button></div>
-                            <div ><button onclick="display('/')" style="background-color: rgb(255, 115, 0); color: black;">/</button></div>
-                        </div>
-                        <div class="rows">
+                            
                             <div ><button id="seven" onclick="display('7')">7</button></div>
                             <div ><button id="eight" onclick="display('8')">8</button></div>
                             <divs ><button id="nine" onclick="display('9')">9</button></divs>
-                            <div ><button id="mul" onclick="display('*')" style="background-color: rgb(255, 115, 0); color: black;">x</button></div>
+                            <div ><button onclick="display('/')" style="background-color: rgb(255, 115, 0); color: black;">/</button></div>
                         </div>
                         <div class="rows">
                             <div ><button id="four" onclick="display('4')">4</button></div>
                             <div ><button id="five" onclick="display('5')">5</button></div>
                             <div ><button id="six" onclick="display('6')">6</button></div>
-                            <div s><button id="sub" onclick="display('-')" style="background-color: rgb(255, 115, 0); color: black;">-</button></div>
+                            <div ><button id="mul" onclick="display('*')" style="background-color: rgb(255, 115, 0); color: black;">x</button></div>
                         </div>
                         <div class="rows">
                             <div ><button onclick="display('1')">1</button></div>
                             <div ><button onclick="display('2')">2</button></div>
                             <div ><button onclick="display('3')">3</button></div>
-                            <div ><button onclick="display('+')" style="background-color: rgb(255, 115, 0); color: black;">+</button></div>
+                            <div s><button id="sub" onclick="display('-')" style="background-color: rgb(255, 115, 0); color: black;">-</button></div>
                         </div>
                         <div class="rows">
                             <div ><button onclick="display('0')">0</button></div>
-                            <div ><button>.</button></div>
                             <div ><button onclick="resetResult()">Ac</button></div>
                             <div ><button onclick="expEval()" style="background-color: rgb(255, 115, 0); color: black;">=</button></div>
+                            <div ><button onclick="display('+')" style="background-color: rgb(255, 115, 0); color: black;">+</button></div>
+                        </div>
+                        <div class="rows">
+                            <div ><button onclick="removeLast()"  style="background-color: rgb(107, 107, 107);color: white;"><i class="fa-solid fa-delete-left"></i></button></div>
+
+                           
                         </div>
                     </div>
                 </div>
